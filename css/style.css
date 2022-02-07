@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container-main-box .background .layer {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 120vh;
+  z-index: -5;
+}
+
+.container-main-box .background .layer.layer1 {
+  background-color: #7da8e9;
+  -webkit-transform: skewX(-50deg) translateX(-40%) translateY(10%);
+          transform: skewX(-50deg) translateX(-40%) translateY(10%);
+  z-index: -6;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container-main-box .background .layer.layer2 {
+  background-color: #3468ed;
+  -webkit-transform: skewX(-50deg) translateX(-20%) translateY(10%);
+          transform: skewX(-50deg) translateX(-20%) translateY(10%);
+  -webkit-box-shadow: 0 4px 4px black;
+          box-shadow: 0 4px 4px black;
+  z-index: -7;
+}
+
+.container-main-box .background .layerTwo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 120vh;
+  z-index: -5;
+  overflow-y: hidden;
+}
+
+.container-main-box .background .layerTwo.layerTwo1 {
+  background-color: #3468ed;
+  -webkit-transform: skewX(-50deg) translateX(140%) translateY(10%);
+          transform: skewX(-50deg) translateX(140%) translateY(10%);
+  -webkit-box-shadow: 0 4px 4px black;
+          box-shadow: 0 4px 4px black;
+  z-index: -7;
+}
+
+.container-main-box .background .layerTwo.layerTwo2 {
+  background-color: #7da8e9;
+  -webkit-transform: skewX(-50deg) translateX(157%) translateY(10%);
+          transform: skewX(-50deg) translateX(157%) translateY(10%);
+  -webkit-box-shadow: 0 4px 4px black;
+          box-shadow: 0 4px 4px black;
+  z-index: -6;
+}
+
+.container-main-box .background .bg1 {
+  position: absolute;
+  width: 1582px;
+  height: 134px;
+  top: 9%;
+  left: -19%;
+  z-index: -100;
+}
+
+.container-main-box .background .bg2 {
+  position: absolute;
+  width: 1527px;
+  height: 185px;
+  bottom: -27%;
+  left: -10%;
+  z-index: -100;
+}
+
+.container-main-box .background .bg3 {
+  position: absolute;
+  width: 1582px;
+  height: 173px;
+  top: -20%;
+  left: -10%;
+  z-index: -100;
+}
+
+.container-main-box .background .container-title {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box .background .container-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 66px;
+  text-align: center;
+  background-color: #ffff;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins", sans-serif;
+}
+
+.container-main-box .background .container-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 0;
+}
+
+.container-main-box .background .container-card .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container-main-box .background .container-card .card .box {
+  width: 311px;
+  height: 411px;
+  -webkit-box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+  background-color: #ffff;
+  border-radius: 23px;
+  margin-top: 20px;
+}
+
+.container-main-box .background .container-card .card .box .img img {
+  width: 311px;
+  height: 206px;
+  border-radius: 23px;
+}
+
+.container-main-box .background .container-card .card .box .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box .background .container-card .card .box .logo img {
+  height: 61px;
+  width: 61px;
+}
+
+.container-main-box .background .container-card .card .box .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 60px;
+}
+
+.container-main-box .background .container-card .card .box .title p {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container-main-box .background .container-card .card .box .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box .background .container-card .card .box .button p {
+  font-size: 25px;
+  height: 40px;
+  width: 240px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #3468ed;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.container-main-box .background .container-card .card .box .button p:hover {
+  background-color: #3468ed;
+  color: white;
+  -webkit-box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.34);
+          box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.34);
+}
+
+.container-main-box .background .container-card .card:hover {
+  -webkit-transform: translateY(-2%) scale(101%);
+          transform: translateY(-2%) scale(101%);
+}
+
+.container-main-box .background .container-card .card-mid:hover {
+  -webkit-transform: translateY(-2%) scale(101%);
+          transform: translateY(-2%) scale(101%);
+}
+
+.container-main-box .background .container-card .card-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container-main-box .background .container-card .card-mid .box {
+  width: 311px;
+  height: 411px;
+  -webkit-box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  margin-bottom: 80px;
+  background-color: #ffff;
+}
+
+.container-main-box .background .container-card .card-mid .box .img img {
+  width: 311px;
+  height: 206px;
+  border-radius: 23px;
+}
+
+.container-main-box .background .container-card .card-mid .box .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box .background .container-card .card-mid .box .logo img {
+  height: 61px;
+  width: 61px;
+}
+
+.container-main-box .background .container-card .card-mid .box .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 60px;
+}
+
+.container-main-box .background .container-card .card-mid .box .title p {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container-main-box .background .container-card .card-mid .box .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box .background .container-card .card-mid .box .button p {
+  font-size: 25px;
+  height: 40px;
+  width: 240px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  color: #3468ed;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.container-main-box .background .container-card .card-mid .box .button p:hover {
+  background-color: #3468ed;
+  color: white;
+  -webkit-box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.25);
+}
+
+.container-main-box footer .fo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 199px;
+  background-color: #292929;
+  -webkit-box-shadow: 0 -5px 23px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -5px 23px rgba(0, 0, 0, 0.25);
+}
+
+.container-main-box footer .fo-container .fo-logo img {
+  width: 84px;
+  height: 80px;
+  margin: 10px 20px;
+}
+
+.container-main-box footer .fo-container .logo-title .title {
+  margin-top: 20px;
+  font-size: 48px;
+  font-family: "poppins";
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.container-main-box footer .fo-container .logo-title p {
+  width: 60%;
+  font-size: 20;
+  font-family: "poppins";
+  text-decoration: underline;
+  color: #ffff;
+}
+
+.container-main-box footer .fo-container .social-media {
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.container-main-box footer .fo-container .social-media p {
+  font-size: 36px;
+  font-family: "poppins";
+  font-weight: 400;
+  color: #5182ed;
+  text-align: center;
+}
+
+.container-main-box footer .fo-container .social-media img {
+  width: 69px;
+  height: 69px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container-main-box footer .fo-container .social-media img:hover {
+  -webkit-transform: translateY(-4%);
+          transform: translateY(-4%);
+}
+
+.container-main-box footer .fo-container .social-media .so-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-main-box footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 57px;
+  background-color: #242323;
+  -webkit-box-shadow: 0 -5px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-main-box footer .copyright .co-logo img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.container-main-box footer .copyright .co-text {
+  font-family: "poppins";
+  font-weight: 400;
+  color: #ffff;
+}
+
+.container-main-box footer .copyright .bonus-logo img {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
